@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+   --dark-purple: #633BBC;
+   --light-purple: #8257E5;
+   --dark-gray: #323238;
+   --middle-gray: #7C7C8A;
+   --gray: #8D8D99;
+   --light-gray: #E1E1E6;
+   --green: #1D8841;
   }
 }
 
