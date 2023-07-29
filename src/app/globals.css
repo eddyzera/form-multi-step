@@ -9,17 +9,12 @@
    --dark-gray: #323238;
    --middle-gray: #7C7C8A;
    --gray: #8D8D99;
+   --white: #fff;
    --light-gray: #E1E1E6;
    --green: #1D8841;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--white);
 }

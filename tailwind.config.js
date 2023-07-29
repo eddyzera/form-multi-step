@@ -13,6 +13,7 @@ module.exports = {
         'dark-gray': 'var(--dark-gray)',
         'middle-gray': 'var(--middle-gray)',
         gray: 'var(--gray)',
+        white: 'var(--white)',
         'light-gray': 'var(--light-gray)',
         green: 'var(--green)',
       },
